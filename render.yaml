@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: api-gestorv
-    plan: free
-    buildCommand: mvnw clean install -DskipTests
-    startCommand: java -jar target/*.jar
